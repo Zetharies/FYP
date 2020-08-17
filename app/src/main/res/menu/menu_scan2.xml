@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_increase"
+        android:icon="@drawable/font_increase"
+        app:showAsAction="ifRoom"
+        android:title="Increase Font"/>
+
+    <item
+        android:id="@+id/nav_decrease"
+        android:icon="@drawable/font_decrease"
+        app:showAsAction="ifRoom"
+        android:title="Decrease Font"/>
+
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@drawable/ic_share_white_48dp"
+        app:showAsAction="ifRoom"
+        android:title="Share"/>
+
+
+</menu>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundcolor"
+    tools:context=".View.MyFitness">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:paddingLeft="10dp"
+        android:text="Enter Your height (in cm)"
+        android:textSize="30sp"
+        android:textColor="#FFF" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="70dp"
+        android:ems="10"
+        android:hint="e.g. 174"
+        android:textSize="44sp"
+        android:textColorHint="#ffff"
+        android:paddingLeft="10dp"
+        android:inputType="numberDecimal"
+        android:textColor="#FFF"
+        android:foregroundTint="#FFF"
+        android:layout_below="@id/textView3"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="10dp"
+        android:textColor="#FFF"
+        android:text="Enter Your weight (in kg)"
+        android:textSize="30sp"
+        android:layout_below="@id/editText3"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="70dp"
+        android:ems="10"
+        android:hint="e.g. 65"
+        android:textSize="44sp"
+        android:textColorHint="#ffff"
+        android:paddingLeft="10dp"
+        android:textColor="#FFF"
+        android:foregroundTint="#FFF"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/textView10"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Save"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        android:onClick="SaveBodyDim"
+        android:textColor="#FFF"
+        android:background="?cardbackground"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

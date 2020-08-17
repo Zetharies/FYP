@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Memento</string>
+    <!-- Language Activity Chinese -->
+    <string name="setPreferences">設定您的喜好</string>
+    <string name="preferencesText">在開始創建記憶之前，您想在Memento上使用哪種語言？ 您以後可以隨時更改此設置。</string>
+    <string name="languageGetStarted">開始使用</string>
+
+    <!-- Login activity -->
+    <string name="Login_Activity_Title">用Memento釋放您的回憶</string>
+    <string name="Login_Activity_Description">您的個人旅行日記可幫助您捕捉和回憶有意義的回憶</string>
+    <string name="Login_Activity_GoogleSignIn">使用Google登錄到Memento</string>
+
+    <!-- Main activity (Bottom Navigation) -->
+    <string name="Bottom_Navigation_Trips">旅行</string>
+    <string name="Bottom_Navigation_Gallery">畫廊</string>
+    <string name="Bottom_Navigation_Map">地圖</string>
+    <string name="Bottom_Navigation_Me">我</string>
+
+    <!-- Toolbar Navigations -->
+    <string name="Toolbar_Trips">旅行</string>
+    <string name="Toolbar_Gallery">畫廊</string>
+    <string name="Toolbar_Profile">輪廓</string>
+    <string name="Toolbar_Settings">設定值</string>
+
+    <!-- Home Fragment (Top Navigations) -->
+    <string name="Home_Fragment_All">所有</string>
+    <string name="Home_Fragment_Favourites">收藏夾</string>
+    <string name="Home_Fragment_Upcoming">即將來臨</string>
+    <string name="Home_Fragment_Past">過去</string>
+
+    <!-- SETTINGS BEGIN -->
+    <!-- Settings CATEGORY TITLES Preference -->
+    <string name="Settings_category_title_customise">定制</string>
+    <string name="Settings_category_title_general">一般</string>
+    <string name="Settings_category_title_connectwithus">聯繫我們</string>
+
+    <!-- Settings TITLES Preference -->
+    <string name="Settings_title_theme">主題</string>
+    <string name="Settings_title_nightMode">夜間模式</string>
+    <string name="Settings_title_language">語言</string>
+    <string name="Settings_title_sendfeedback">發送反饋</string>
+
+    <!-- Settings subTitles Preference -->
+    <string name="Settings_subTitle_theme">默認</string>
+    <string name="Settings_subTitle_nightMode">使用較暗的主題，讓您的眼睛在晚上保持舒適。</string>
+    <string name="Settings_subTitle_nightModeON">上</string>
+    <string name="Settings_subTitle_gestureOff">使用非标准手势可以轻松删除旅程。</string>
+    <string name="Settings_subTitle_gestureON">开| 摇动设备以激活（必须登录）</string>
+    <string name="Settings_subTitle_sendfeedback">報告技術問題或建議新功能。</string>
+    <!-- SETTINGS END -->
+</resources>

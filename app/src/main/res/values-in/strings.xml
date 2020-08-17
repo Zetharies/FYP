@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Memento</string>
+    <!-- Language Activity -->
+    <string name="setPreferences">Tetapkan Preferensi Anda</string>
+    <string name="preferencesText">Sebelum kami mulai membuat kenangan, bahasa apa yang ingin Anda gunakan pada Memento? Anda selalu dapat mengubahnya nanti.</string>
+    <string name="languageGetStarted">Memulai</string>
+
+    <!-- Login activity -->
+    <string name="Login_Activity_Title">Lepaskan ingatan Anda dengan Memento</string>
+    <string name="Login_Activity_Description">Jurnal perjalanan pribadi Anda untuk membantu Anda menangkap dan mengingat kenangan yang bermakna</string>
+    <string name="Login_Activity_GoogleSignIn">Masuk ke Memento dengan Google</string>
+
+    <!-- Main activity (Bottom Navigation) -->
+    <string name="Bottom_Navigation_Trips">Perjalanan</string>
+    <string name="Bottom_Navigation_Gallery">Galeri</string>
+    <string name="Bottom_Navigation_Map">Peta</string>
+    <string name="Bottom_Navigation_Me">Saya</string>
+
+    <!-- Toolbar Navigations -->
+    <string name="Toolbar_Trips">Perjalanan</string>
+    <string name="Toolbar_Gallery">Galeri</string>
+    <string name="Toolbar_Profile">Profil</string>
+    <string name="Toolbar_Settings">Pengaturan</string>
+
+    <!-- Home Fragment (Top Navigations) -->
+    <string name="Home_Fragment_All">Semua</string>
+    <string name="Home_Fragment_Favourites">Favorit</string>
+    <string name="Home_Fragment_Upcoming">Mendatang</string>
+    <string name="Home_Fragment_Past">Lalu</string>
+
+    <!-- SETTINGS BEGIN -->
+    <!-- Settings CATEGORY TITLES Preference -->
+    <string name="Settings_category_title_customise">Sesuaikan</string>
+    <string name="Settings_category_title_general">Umum</string>
+    <string name="Settings_category_title_connectwithus">Terhubung dengan kami</string>
+
+    <!-- Settings TITLES Preference -->
+    <string name="Settings_title_theme">Tema</string>
+    <string name="Settings_title_nightMode">Mode malam</string>
+    <string name="Settings_title_language">Bahasa</string>
+    <string name="Settings_title_sendfeedback">Kirim Umpan Balik</string>
+
+    <!-- Settings subTitles Preference -->
+    <string name="Settings_subTitle_theme">Default</string>
+    <string name="Settings_subTitle_nightMode">Gunakan tema yang lebih gelap untuk membuat mata Anda nyaman di malam hari.</string>
+    <string name="Settings_subTitle_nightModeON">Di</string>
+    <string name="Settings_subTitle_gestureOff">Gunakan gerakan yang tidak standar untuk membuat perjalanan lebih mudah dihapus.</string>
+    <string name="Settings_subTitle_gestureON">Aktif | Guncangkan perangkat untuk mengaktifkan (Harus login)</string>
+    <string name="Settings_subTitle_sendfeedback">Laporkan masalah teknis atau menyarankan fitur baru.</string>
+    <!-- SETTINGS END -->
+</resources>

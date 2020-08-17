@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/backgroundcolor"
+    tools:context=".View.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/news"
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:drawableTop="@drawable/ic_event_available_black_128dp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="10dp"
+                    android:text="News and Events"
+                    android:layout_marginRight="10dp"
+                    android:textColor="?attr/textColor"
+                    android:textStyle="bold"
+                    android:textSize="32sp"
+                    android:layout_marginBottom="10dp"
+                    android:drawableTint="?textColor"
+                    android:background="?attr/cardbackground"/>
+                <Button
+                    android:id="@+id/map"
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:drawableTop="@drawable/ic_map_black_128dp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="10dp"
+                    android:text="MAP"
+                    android:textColor="?attr/textColor"
+                    android:textStyle="bold"
+                    android:textSize="32sp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:drawableTint="?textColor"
+                    android:background="?cardbackground"/>
+                <Button
+                    android:id="@+id/help"
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:drawableTop="@drawable/ic_help_black_128dp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="10dp"
+                    android:text="Help"
+                    android:textColor="?attr/textColor"
+                    android:textStyle="bold"
+                    android:textSize="32sp"
+                    android:layout_marginRight="10dp"
+                    android:drawableTint="?textColor"
+                    android:background="?cardbackground"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/btn_my_fitness"
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:drawableTop="@drawable/ic_fitness_center_black_128dp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="10dp"
+                    android:text="MY FITNESS"
+                    android:layout_marginRight="10dp"
+                    android:textColor="?attr/textColor"
+                    android:textStyle="bold"
+                    android:textSize="32sp"
+                    android:layout_marginBottom="10dp"
+                    android:drawableTint="?textColor"
+                    android:background="?cardbackground"/>
+                <Button
+                    android:id="@+id/btn_ocr"
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:drawableTop="@drawable/ic_scanner_black_128dp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="10dp"
+                    android:text="OCR"
+                    android:textColor="?attr/textColor"
+                    android:textStyle="bold"
+                    android:textSize="32sp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:drawableTint="?textColor"
+                    android:background="?cardbackground"/>
+                <Button
+                    android:id="@+id/settings"
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:drawableTop="@drawable/ic_settings_black_24dp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="10dp"
+                    android:text="Settings"
+                    android:textColor="?attr/textColor"
+                    android:textStyle="bold"
+                    android:textSize="32sp"
+                    android:layout_marginRight="10dp"
+                    android:drawableTint="?textColor"
+                    android:background="?cardbackground"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</LinearLayout>

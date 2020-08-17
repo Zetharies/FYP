@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="410dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@android:id/title"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:background="#f0eff6"
+        android:textColor="#000"
+        android:layout_height="wrap_content"
+        android:textSize="28sp" />
+
+</LinearLayout>

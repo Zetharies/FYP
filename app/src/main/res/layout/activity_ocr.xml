@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/backgroundcolor"
+    tools:context=".View.OCRActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/ocr_text_recognition"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="match_parent"
+            android:background="?attr/colorPrimary"
+            android:text="Text Recognition"
+            android:drawableTop="@drawable/textrecognition"
+            android:paddingTop="50dp"
+            android:paddingBottom="50dp"
+            android:textSize="42sp"
+            android:textColor="?textColor"
+            android:layout_weight="0.5"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/ocr_object_recognition"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.5"
+            android:background="?attr/colorPrimary"
+            android:drawableTop="@drawable/objectrecognition"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:text="Object Recognition"
+            android:textColor="?textColor"
+            android:textSize="42sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="@string/Settings_category_title_general">
+        <Preference
+            app:key="language"
+            app:title="@string/Settings_title_language"
+            app:icon="@drawable/flag_united24"
+            app:summary="English"/>
+
+        <Preference
+            app:key="font"
+            app:title="@string/Settings_title_font"
+            app:icon="@drawable/font_increase24"
+            app:summary="Default"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Customise">
+        <SwitchPreferenceCompat
+            app:key="darkThemeSwitch"
+            app:title="Dark Theme"
+            app:summary="Use a darker theme to keep your eyes comfortable"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

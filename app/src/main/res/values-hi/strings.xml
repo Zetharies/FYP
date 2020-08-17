@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Memento</string>
+    <!-- Language Activity -->
+    <string name="setPreferences">अपनी प्राथमिकताएँ निर्धारित करें</string>
+    <string name="preferencesText">इससे पहले कि हम यादें बनाना शुरू करें, आप मेमेंटो पर किस भाषा का उपयोग करना चाहेंगे? आप इसे बाद में बदल सकते हैं।</string>
+    <string name="languageGetStarted">शुरू हो जाओ</string>
+
+    <!-- Login activity -->
+    <string name="Login_Activity_Title">मेमेंटो के साथ अपनी यादों को उजागर करें</string>
+    <string name="Login_Activity_Description">आपकी व्यक्तिगत यात्रा पत्रिका आपको सार्थक यादों को पकड़ने और याद रखने में मदद करती है</string>
+    <string name="Login_Activity_GoogleSignIn">Google के साथ मेमेंटो में साइन इन करें</string>
+
+    <!-- Main activity (Bottom Navigation) -->
+    <string name="Bottom_Navigation_Trips">यात्राएं</string>
+    <string name="Bottom_Navigation_Gallery">गेलरी</string>
+    <string name="Bottom_Navigation_Map">नक्शा</string>
+    <string name="Bottom_Navigation_Me">मुझे</string>
+
+    <!-- Toolbar Navigations -->
+    <string name="Toolbar_Trips">यात्राएं</string>
+    <string name="Toolbar_Gallery">गेलरी</string>
+    <string name="Toolbar_Profile">प्रोफ़ाइल</string>
+    <string name="Toolbar_Settings">समायोजन</string>
+
+    <!-- Home Fragment (Top Navigations) -->
+    <string name="Home_Fragment_All">सब</string>
+    <string name="Home_Fragment_Favourites">पसंदीदा</string>
+    <string name="Home_Fragment_Upcoming">आगामी</string>
+    <string name="Home_Fragment_Past">अतीत</string>
+
+    <!-- SETTINGS BEGIN -->
+    <!-- Settings CATEGORY TITLES Preference -->
+    <string name="Settings_category_title_customise">अनुकूलित करें</string>
+    <string name="Settings_category_title_general">सामान्य</string>
+    <string name="Settings_category_title_connectwithus">हमसे जुडे</string>
+
+    <!-- Settings TITLES Preference -->
+    <string name="Settings_title_theme">विषय</string>
+    <string name="Settings_title_nightMode">रात्री स्वरुप</string>
+    <string name="Settings_title_language">भाषा</string>
+    <string name="Settings_title_sendfeedback">प्रतिक्रिया भेजें</string>
+
+    <!-- Settings subTitles Preference -->
+    <string name="Settings_subTitle_theme">चूक</string>
+    <string name="Settings_subTitle_nightMode">रात में अपनी आंखों को आराम से रखने के लिए गहरे रंग की थीम का उपयोग करें।</string>
+    <string name="Settings_subTitle_nightModeON">पर</string>
+    <string name="Settings_subTitle_gestureOff">यात्राओं को आसान बनाने के लिए एक गैर-मानक इशारे का उपयोग करें।</string>
+    <string name="Settings_subTitle_gestureON">पर | सक्रिय करने के लिए डिवाइस को हिलाएं (लॉग इन होना चाहिए)</string>
+    <string name="Settings_subTitle_sendfeedback">तकनीकी समस्याओं की रिपोर्ट करें या नई सुविधाओं का सुझाव दें।</string>
+    <!-- SETTINGS END -->
+</resources>

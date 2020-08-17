@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundcolor">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="265dp"
+        tools:ignore="MissingConstraints">
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/dividerfit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_container"
+        android:src="@drawable/fit_divider3">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/language_image"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/app_icon" />
+
+    <TextView
+        android:id="@+id/setPreferences"
+        android:layout_width="match_parent"
+        android:text="@string/set_your_preferences"
+        android:textColor="#FFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/language_image"
+        android:layout_height="50dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/preferencesText"
+        android:layout_width="wrap_content"
+        android:text="@string/set_your_preferences_description"
+        android:textSize="@dimen/font_size"
+        android:textColor="#FFF"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/setPreferences"
+        android:layout_height="100dp">
+    </TextView>
+
+    <Button
+        android:id="@+id/language"
+        android:layout_width="match_parent"
+        android:background="@drawable/list_selector_background"
+        android:layout_height="80dp"
+        android:text="English"
+        android:textSize="@dimen/font_size"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textAllCaps="false"
+        android:gravity="left|center"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:drawableStart="@drawable/flag_united24"
+        android:drawableEnd="@drawable/ic_arrow_drop_down_black_24dp"
+        android:drawablePadding="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/preferencesText"/>
+
+    <Button
+        android:id="@+id/font"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/language"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/list_selector_background"
+        android:drawableStart="@drawable/font_increase24"
+        android:drawableEnd="@drawable/ic_arrow_drop_down_black_24dp"
+        android:drawablePadding="15dp"
+        android:drawableTint="#000"
+        android:gravity="left|center"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="@string/defaultSize"
+        android:textAllCaps="false"
+        android:textColor="#000"
+        android:textSize="@dimen/font_size"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/preference_continue"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_centerHorizontal="true"
+        android:background="?cardbackground"
+        android:onClick="returnActivity"
+        android:text="@string/continue_text"
+        android:textSize="@dimen/continue_size"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

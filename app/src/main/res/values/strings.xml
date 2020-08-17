@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">BlindFitness</string>
+
+    <!-- General -->
+    <string name="continue_text">Continue</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+
+    <!-- activity_new_preference.xml -->
+    <string name="set_your_preferences">Set Your Preferences</string>
+    <string name="set_your_preferences_description">Before we start using the app, set your preferred language and font size.</string>
+
+    <!-- Map -->
+    <string name="mapbox_access_token">pk.eyJ1IjoiemV0aGFyaWVzIiwiYSI6ImNrYXpodnNzMTAycDYycXRjOHNqeW8xOXoifQ.ZNN30XPcMcdGqA4j8a2L3w</string>
+    <string name="start_navigating">Start Navigating</string>
+
+    <string name="failure_to_retrieve">Failure to retrieve the navigation route!</string>
+    <string name="failure_to_load_file">Failure to load the local file of locations. Please try reloading the app.</string>
+    <string name="no_internet_message">Route drawing not possible because there\'s no internet connection!</string>
+    <string name="blue_map_style" translatable="false">mapbox://styles/mapbox/cj7bwwv3caf7l2spgukxm8bwv</string>
+
+    <!-- My Fitness -->
+    <string name="your_heart_rate_is">Your heart rate is</string>
+    <string name="place_your_finger_on_the_sensor">Place your finger on the sensor</string>
+    <string name="place_your_finger_properly">Place your finger properly</string>
+    <string name="step_sensor_is_not_available">Step sensor is not available</string>
+
+    <!-- New Preferences -->
+    <string name="defaultSize">Default</string>
+
+    <!-- ExerciseActivity.java -->
+    <string name="push_ups">Position your hands shoulder-width apart as you bend your elbows lower and push up.</string>
+    <string name="pull_ups">Hang from a bar with hands facing away from body and feet off the ground.</string>
+    <string name="cobra_stretch">Inhale as you press into your hands, straightening your arms and lifting your chest.</string>
+    <string name="crunches">Lie on your back with your knees bent and hold the weight above you in both hands with your arms straight.</string>
+    <string name="plank">Place forearms on the floor with elbows aligned shoulders and arms parallel to your body at shoulder width.</string>
+    <string name="lunges">Step forward with one leg, lowering your hips until both knees are bent at about a 90-degree angle.</string>
+    <string name="side_pank">Start on your side with your feet together and one forearm directly below your shoulder.</string>
+    <string name="squats">Inhale and push your hips out and squat down and keep your body weight on your heels.</string>
+    <string name="skipping">Grab a skipping rope and start consecutively skipping without tripping.</string>
+
+    <!-- MainActivity.java -->
+    <string name="hello">hello</string>
+    <string name="how_are_you">how are you</string>
+    <string name="good_thank_you">good thank you</string>
+    <string name="what">what</string>
+    <string name="your_name">your name</string>
+    <string name="my_name_is">my name is blindfitness</string>
+    <string name="time">time</string>
+    <string name="the_time_is">the time is currently</string>
+    <string name="date">date</string>
+    <string name="todays_date_is">todays date is</string>
+
+    <!--ProgressActivity.java -->
+    <string name="minHeartRate">Min Heart Rate: </string>
+    <string name="maxHeartRate">Max Heart Rate: </string>
+    <string name="avgHeartRate">Average Heart Rate: </string>
+
+    <string name="minTargetRate">Min Target Heart Rate: </string>
+    <string name="maxTargetRate">Max Target Heart Rate: </string>
+    <string name="avgTargetRate">Average Target Heart Rate: </string>
+
+    <string name="currentWeight">Current Weight: </string>
+    <string name="currentHeight">Current Height: </string>
+    <string name="bmi">BMI: </string>
+
+    <!-- Settings CATEGORY TITLES Preference -->
+    <string name="Settings_category_title_customise">Customise</string>
+    <string name="Settings_category_title_general">General</string>
+    <string name="Settings_title_language">Language</string>
+    <string name="Settings_title_font">Font</string>
+
+
+
+</resources>

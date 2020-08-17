@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Memento</string>
+    <!-- Language Activity Arabic -->
+    <string name="setPreferences">ضبط تفضيلاتك</string>
+    <string name="preferencesText">قبل أن نبدأ في إنشاء ذكريات ، ما اللغة التي ترغب في استخدامها على Memento؟ يمكنك دائما تغيير هذا في وقت لاحق.</string>
+    <string name="languageGetStarted">البدء</string>
+
+    <!-- Login activity -->
+    <string name="Login_Activity_Title">أطلق العنان لذكرياتك مع Memento</string>
+    <string name="Login_Activity_Description">مجلة السفر الشخصية الخاصة بك لمساعدتك على التقاط وتذكر ذكريات ذات مغزى</string>
+    <string name="Login_Activity_GoogleSignIn">تسجيل الدخول إلى Memento مع جوجل</string>
+
+    <!-- Main activity (Bottom Navigation) -->
+    <string name="Bottom_Navigation_Trips">رحلات</string>
+    <string name="Bottom_Navigation_Gallery">صالة عرض</string>
+    <string name="Bottom_Navigation_Map">خريطة</string>
+    <string name="Bottom_Navigation_Me">أنا</string>
+
+    <!-- Toolbar Navigations -->
+    <string name="Toolbar_Trips">رحلات</string>
+    <string name="Toolbar_Gallery">صالة عرض</string>
+    <string name="Toolbar_Profile">الملف الشخصي</string>
+    <string name="Toolbar_Settings">الإعدادات</string>
+
+    <!-- Home Fragment (Top Navigations) -->
+    <string name="Home_Fragment_All">الكل</string>
+    <string name="Home_Fragment_Favourites">المفضلة</string>
+    <string name="Home_Fragment_Upcoming">القادمة</string>
+    <string name="Home_Fragment_Past">الماضي</string>
+
+    <!-- SETTINGS BEGIN -->
+    <!-- Settings CATEGORY TITLES Preference -->
+    <string name="Settings_category_title_customise">يعدل أو يكيف</string>
+    <string name="Settings_category_title_general">جنرال لواء</string>
+    <string name="Settings_category_title_connectwithus">اتصل بنا</string>
+
+    <!-- Settings TITLES Preference -->
+    <string name="Settings_title_theme">موضوع</string>
+    <string name="Settings_title_nightMode">الوضع الليلي</string>
+    <string name="Settings_title_language">لغة</string>
+    <string name="Settings_title_sendfeedback">ارسل رأيك</string>
+
+    <!-- Settings subTitles Preference -->
+    <string name="Settings_subTitle_theme">الإفتراضي</string>
+    <string name="Settings_subTitle_nightMode">استخدم سمة أغمق للحفاظ على راحة عينيك أثناء الليل.</string>
+    <string name="Settings_subTitle_nightModeON">على</string>
+    <string name="Settings_subTitle_gestureOff">استخدم إيماءة غير قياسية لتسهيل حذف الرحلات.</string>
+    <string name="Settings_subTitle_gestureON">في | هز الجهاز للتنشيط (يجب تسجيل الدخول)</string>
+    <string name="Settings_subTitle_sendfeedback">الإبلاغ عن المشكلات الفنية أو اقتراح ميزات جديدة.</string>
+    <!-- SETTINGS END -->
+</resources>

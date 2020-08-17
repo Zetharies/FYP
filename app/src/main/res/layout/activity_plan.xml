@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundcolor"
+    tools:context=".View.PlanActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_horizontal"
+        android:text="Create A Workout Plan Fit To Your Ability and Time"
+        android:textColor="#FFF"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Select Your Workout Level"
+        android:textColor="#FFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textView4"/>
+
+    <RadioGroup
+        android:id="@+id/moderadiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:layout_below="@id/textView5">
+
+        <RadioButton
+            android:id="@+id/beginner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beginner"
+            android:checked="true"
+            android:layout_marginLeft="15dp"
+            android:textColor="#FFF"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"
+            android:scaleX="1.8"
+            android:scaleY="1.8"
+            android:translationX="24dp"/>
+        <RadioButton
+            android:id="@+id/intermediate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Intermediate"
+            android:layout_marginLeft="25dp"
+            android:textColor="#FFF"
+            android:textSize="17sp"
+            android:layout_marginTop="20dp"
+            android:scaleX="1.8"
+            android:scaleY="1.8"
+            android:translationX="24dp"/>
+        <RadioButton
+            android:id="@+id/advanced"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Advanced"
+            android:layout_marginLeft="17dp"
+            android:textColor="#FFF"
+            android:textSize="17sp"
+            android:layout_marginTop="20dp"
+            android:scaleX="1.8"
+            android:scaleY="1.8"
+            android:translationX="24dp"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Select Your Schedule"
+        android:textColor="#FFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_below="@id/moderadiogroup"/>
+
+    <RadioGroup
+        android:id="@+id/dayradiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/textView6">
+
+        <RadioButton
+            android:id="@+id/duration_fifteen_days"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="15 days"
+            android:checked="true"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="5dp"
+            android:scaleX="1.8"
+            android:scaleY="1.8"
+            android:translationX="24dp"/>
+        <RadioButton
+            android:id="@+id/duration_thirty_days"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="30 days"
+            android:layout_marginLeft="100dp"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:scaleX="1.8"
+            android:scaleY="1.8"
+            android:translationX="24dp"/>
+        <RadioButton
+            android:id="@+id/duration_fortyfive_days"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="45 days"
+            android:layout_marginLeft="100dp"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:scaleX="1.8"
+            android:scaleY="1.8"
+            android:translationX="24dp"/>
+        <RadioButton
+            android:id="@+id/duration_sixty_days"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="60 days"
+            android:layout_marginLeft="100dp"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:scaleX="1.8"
+            android:scaleY="1.8"
+            android:translationX="24dp"/>
+        <RadioButton
+            android:id="@+id/duration_seventyfive_days"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="75 days"
+            android:layout_marginLeft="100dp"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:scaleX="1.8"
+            android:scaleY="1.8"
+            android:translationX="24dp"
+            android:layout_marginBottom="5dp"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/changePlan"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:text="Change My Plan"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:background="?cardbackground"
+        android:onClick="UpdatePlan"
+        android:textColor="#FFF"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

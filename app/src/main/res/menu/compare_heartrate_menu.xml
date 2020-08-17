@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/age20" android:title="20" android:tooltipText="20"/>
+    <item android:id="@+id/age30" android:title="30" android:tooltipText="30"/>
+    <item android:id="@+id/age35" android:title="35" android:tooltipText="35"/>
+    <item android:id="@+id/age40" android:title="40" android:tooltipText="40"/>
+    <item android:id="@+id/age45" android:title="45" android:tooltipText="45"/>
+    <item android:id="@+id/age50" android:title="50" android:tooltipText="50"/>
+    <item android:id="@+id/age55" android:title="55" android:tooltipText="55"/>
+    <item android:id="@+id/age60" android:title="60" android:tooltipText="60"/>
+    <item android:id="@+id/age65" android:title="65" android:tooltipText="65"/>
+    <item android:id="@+id/age70" android:title="70" android:tooltipText="70"/>
+
+</menu>

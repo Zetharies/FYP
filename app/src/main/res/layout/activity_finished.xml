@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?backgroundcolor"
+    tools:context=".View.FinishedActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="136dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/thumbsup"
+        android:tint="?attr/colorAccent"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Congratulations!\n All exercises have been completed"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:textSize="24sp"
+        android:layout_below="@id/imageView"/>
+
+    <ImageView
+        android:id="@+id/dividerfit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:src="@drawable/fit_divider3">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imageView_heart"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/heart_icon"
+        android:tint="?attr/colorAccent"
+        android:layout_below="@id/textView2"/>
+
+    <TextView
+        android:id="@+id/textView_heart_rate_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:text="Record your heart rate by placing your finger on the sensor for 5-10 seconds to record your progress"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:textSize="24sp"
+        android:visibility="visible"
+        android:layout_below="@id/imageView_heart"/>
+
+    <TextView
+        android:id="@+id/textView_heart_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:text="64"
+        android:textSize="60sp"
+        android:visibility="gone"
+        android:layout_below="@id/textView_heart_rate_text"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_centerHorizontal="true"
+        android:background="?cardbackground"
+        android:onClick="returnActivity"
+        android:text="Finish"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

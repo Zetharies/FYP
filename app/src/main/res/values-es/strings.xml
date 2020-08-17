@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Memento</string>
+    <!-- Language Activity -->
+    <string name="setPreferences">Establece tus preferencias</string>
+    <string name="preferencesText">Antes de comenzar a crear recuerdos, ¿qué idioma te gustaría usar en Memento? Siempre puedes cambiar esto más tarde.</string>
+    <string name="languageGetStarted">Empezar</string>
+
+    <!-- Login activity -->
+    <string name="Login_Activity_Title">Da rienda suelta a tus recuerdos con Memento</string>
+    <string name="Login_Activity_Description">Su diario de viaje personal para ayudarlo a capturar y recordar recuerdos significativos</string>
+    <string name="Login_Activity_GoogleSignIn">Inicie sesión en Memento con Google</string>
+
+    <!-- Main activity (Bottom Navigation) -->
+    <string name="Bottom_Navigation_Trips">Excursiones</string>
+    <string name="Bottom_Navigation_Gallery">Galería</string>
+    <string name="Bottom_Navigation_Map">Mapa</string>
+    <string name="Bottom_Navigation_Me">Yo</string>
+
+    <!-- Toolbar Navigations -->
+    <string name="Toolbar_Trips">Excursiones</string>
+    <string name="Toolbar_Gallery">Galería</string>
+    <string name="Toolbar_Profile">Perfil</string>
+    <string name="Toolbar_Settings">Configuraciones</string>
+
+    <!-- Home Fragment (Top Navigations) -->
+    <string name="Home_Fragment_All">Todos</string>
+    <string name="Home_Fragment_Favourites">Favoritos</string>
+    <string name="Home_Fragment_Upcoming">Próximo</string>
+    <string name="Home_Fragment_Past">Pasado</string>
+
+    <!-- SETTINGS BEGIN -->
+    <!-- Settings CATEGORY TITLES Preference -->
+    <string name="Settings_category_title_customise">Personalizar</string>
+    <string name="Settings_category_title_general">General</string>
+    <string name="Settings_category_title_connectwithus">Conecta con nosotros</string>
+
+    <!-- Settings TITLES Preference -->
+    <string name="Settings_title_theme">Tema</string>
+    <string name="Settings_title_nightMode">Modo nocturno</string>
+    <string name="Settings_title_language">Idioma</string>
+    <string name="Settings_title_sendfeedback">Enviar comentarios</string>
+
+    <!-- Settings subTitles Preference -->
+    <string name="Settings_subTitle_theme">Defecto</string>
+    <string name="Settings_subTitle_nightMode">Use un tema más oscuro para mantener sus ojos cómodos por la noche.</string>
+    <string name="Settings_subTitle_nightModeON">En</string>
+    <string name="Settings_subTitle_gestureOff">Use un gesto no estándar para facilitar la eliminación de viajes.</string>
+    <string name="Settings_subTitle_gestureON">En | Agite el dispositivo para activarlo (debe iniciar sesión)</string>
+    <string name="Settings_subTitle_sendfeedback">Informe problemas técnicos o sugiera nuevas funciones.</string>
+    <!-- SETTINGS END -->
+</resources>

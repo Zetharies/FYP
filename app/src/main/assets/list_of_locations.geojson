@@ -1,0 +1,85 @@
+﻿{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+      "description": "Lantern House 102 Bermondsey Street London SE1 3UB",
+      "name": "BlindAid",
+      "hours": "9am - 5:30pm",
+      "phone": "020-7403-6184"
+       },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.082130,
+           51.497560
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+      "description": "105 Judd St, Saint Pancras, London WC1H 9NE",
+      "name": "Royal National Institute Of Blind People (RNIB)",
+      "hours": "9am - 5pm",
+      "phone": "0303-123-9999"
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+         -0.124890,
+         51.527630
+       ]
+     }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+      "description": "4 Underhill Rd, Dulwich, London SE22 0AH",
+      "name": "Action For Blind People",
+      "hours": "6am - 9:30pm",
+      "phone": "020-8693-7400"
+      },
+      "geometry": {
+       "type": "Point",
+       "coordinates": [
+         -0.065700,
+         51.443030
+       ]
+     }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+      "description": "52-58 Arcola St, Hackney Downs, London E8 2DJ",
+      "name": "Royal Society for Blind Children",
+      "hours": "9:30am - 5:30pm",
+      "phone": "020-3198-0225"
+      },
+      "geometry": {
+      "type": "Point",
+       "coordinates": [
+          -0.072250,
+          51.551750
+       ]
+     }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+      "description": "12-14 Harcourt St, Marylebone, London W1H 4HD",
+      "name": "Blind Veterans UK",
+      "hours": "9am - 5pm",
+      "phone": "0300-111-2233"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.164710,
+          51.520110
+        ]
+      }
+    }
+  ]
+}

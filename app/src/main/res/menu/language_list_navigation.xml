@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_language_list_close"
+        android:icon="@drawable/ic_close_black_24dp"
+        android:iconTint="#FFF"
+        app:showAsAction="ifRoom"
+        android:title="Close"/>
+</menu>

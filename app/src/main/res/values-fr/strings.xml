@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BlindFitness</string>
+
+    <!-- General -->
+    <string name="continue_text">Continuer</string>
+
+    <!-- activity_new_preference.xml -->
+    <string name="set_your_preferences">Définissez vos préférences</string>
+    <string name="set_your_preferences_description">Avant de commencer à utiliser l\'application, définissez votre langue et votre taille de police préférées.</string>
+
+    <string name="defaultSize">Défaut</string>
+
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Memento</string>
+    <!-- Language Activity -->
+    <string name="setPreferences">Установите свои предпочтения</string>
+    <string name="preferencesText">Прежде чем мы начнем вспоминать, какой язык вы бы хотели использовать в Memento? Вы всегда можете изменить это позже.</string>
+    <string name="languageGetStarted">Начать</string>
+
+    <!-- Login activity -->
+    <string name="Login_Activity_Title">Дайте волю своим воспоминаниям с Memento</string>
+    <string name="Login_Activity_Description">Ваш личный журнал путешествий, чтобы помочь вам захватить и вспомнить значимые воспоминания</string>
+    <string name="Login_Activity_GoogleSignIn">Войдите в Memento с помощью Google</string>
+
+    <!-- Main activity (Bottom Navigation) -->
+    <string name="Bottom_Navigation_Trips">Путешествия</string>
+    <string name="Bottom_Navigation_Gallery">Галерея</string>
+    <string name="Bottom_Navigation_Map">карта</string>
+    <string name="Bottom_Navigation_Me">Профиль</string>
+
+    <!-- Toolbar Navigations -->
+    <string name="Toolbar_Trips">Путешествия</string>
+    <string name="Toolbar_Gallery">Галерея</string>
+    <string name="Toolbar_Profile">Профиль</string>
+    <string name="Toolbar_Settings">настройки</string>
+
+    <!-- Home Fragment (Top Navigations) -->
+    <string name="Home_Fragment_All">Все</string>
+    <string name="Home_Fragment_Favourites">Избранные</string>
+    <string name="Home_Fragment_Upcoming">предстоящий</string>
+    <string name="Home_Fragment_Past">прошлое</string>
+
+    <!-- SETTINGS BEGIN -->
+    <!-- Settings CATEGORY TITLES Preference -->
+    <string name="Settings_category_title_customise">подгоняет</string>
+    <string name="Settings_category_title_general">общий</string>
+    <string name="Settings_category_title_connectwithus">связаться с нами</string>
+
+    <!-- Settings TITLES Preference -->
+    <string name="Settings_title_theme">тема</string>
+    <string name="Settings_title_nightMode">Ночной режим</string>
+    <string name="Settings_title_language">язык</string>
+    <string name="Settings_title_sendfeedback">Отправить отзыв</string>
+
+    <!-- Settings subTitles Preference -->
+    <string name="Settings_subTitle_theme">По умолчанию</string>
+    <string name="Settings_subTitle_nightMode">Используйте темную тему, чтобы ваши глаза чувствовали себя комфортно ночью.</string>
+    <string name="Settings_subTitle_nightModeON">На</string>
+    <string name="Settings_subTitle_gestureOff">Используйте нестандартный жест, чтобы упростить удаление поездок.</string>
+    <string name="Settings_subTitle_gestureON">На | Встряхните устройство для активации (необходимо войти в систему)</string>
+    <string name="Settings_subTitle_sendfeedback">Сообщайте о технических проблемах или предлагайте новые функции.</string>
+    <!-- SETTINGS END -->
+</resources>
